@@ -1,0 +1,25 @@
+{
+  "name": "fiza_oop_mybank",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "fiza_oop_mybank": "index.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Fiza",
+  "license": "MIT",
+  "description": "A CLI-based banking application demonstrating object-oriented programming principles. Manage accounts, perform transactions, and track balances with ease.",
+  "dependencies": {
+    "inquirer": "^9.2.21"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
